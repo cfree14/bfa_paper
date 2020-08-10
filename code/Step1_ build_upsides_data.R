@@ -37,10 +37,10 @@ data_global <- data_orig %>%
             bbmsy_avg=mean(bv_bmsy),
             ffmsy_avg=mean(fv_fmsy))
 
-
 # Plot check
 g <- ggplot(data_global, aes(x=year, y=catch_mt/1e6, color=policy)) +
   geom_line() +
+  labs(x="Year", y="Catch (millions mt)") +
   theme_bw()
 g
 
