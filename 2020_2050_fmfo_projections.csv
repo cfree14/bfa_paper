@@ -1,0 +1,683 @@
+"group","ingredient","year","value"
+"Catfish","Fishmeal",2020,1.8399570626356
+"Catfish","Fishmeal",2021,1.6332703622821
+"Catfish","Fishmeal",2022,1.44980126464908
+"Catfish","Fishmeal",2023,1.28694168186652
+"Catfish","Fishmeal",2024,1.1423764987033
+"Catfish","Fishmeal",2025,1.01405066226223
+"Catfish","Fishmeal",2026,0.900139968567
+"Catfish","Fishmeal",2027,0.799025130760449
+"Catfish","Fishmeal",2028,0.709268760283064
+"Catfish","Fishmeal",2029,0.629594933809779
+"Catfish","Fishmeal",2030,0.558871055480779
+"Catfish","Fishmeal",2031,0.496091756590544
+"Catfish","Fishmeal",2032,0.440364603862644
+"Catfish","Fishmeal",2033,0.390897413147623
+"Catfish","Fishmeal",2034,0.346986988202993
+"Catfish","Fishmeal",2035,0.308009124472542
+"Catfish","Fishmeal",2036,0.273409735764629
+"Catfish","Fishmeal",2037,0.242696977691477
+"Catfish","Fishmeal",2038,0.21543425590113
+"Catfish","Fishmeal",2039,0.191234019711089
+"Catfish","Fishmeal",2040,0.169752252917681
+"Catfish","Fishmeal",2041,0.150683583465759
+"Catfish","Fishmeal",2042,0.133756942460687
+"Catfish","Fishmeal",2043,0.11873171081372
+"Catfish","Fishmeal",2044,0.105394298743755
+"Catfish","Fishmeal",2045,0.0935551095116899
+"Catfish","Fishmeal",2046,0.0830458442256384
+"Catfish","Fishmeal",2047,0.0737171094037067
+"Catfish","Fishmeal",2048,0.0654362932848646
+"Catfish","Fishmeal",2049,0.0580856806988082
+"Catfish","Fishmeal",2050,0.0515607796969193
+"Catfish","Fish oil",2020,1.09895660078008
+"Catfish","Fish oil",2021,1.0665330884698
+"Catfish","Fish oil",2022,1.03506619642075
+"Catfish","Fish oil",2023,1.00452770059864
+"Catfish","Fish oil",2024,0.974890209688379
+"Catfish","Fish oil",2025,0.946127140525706
+"Catfish","Fish oil",2026,0.91821269425353
+"Catfish","Fish oil",2027,0.891121833181799
+"Catfish","Fish oil",2028,0.864830258330135
+"Catfish","Fish oil",2029,0.839314387632996
+"Catfish","Fish oil",2030,0.814551334787864
+"Catfish","Fish oil",2031,0.79051888872757
+"Catfish","Fish oil",2032,0.767195493698156
+"Catfish","Fish oil",2033,0.744560229924623
+"Catfish","Fish oil",2034,0.722592794847048
+"Catfish","Fish oil",2035,0.701273484910313
+"Catfish","Fish oil",2036,0.680583177891155
+"Catfish","Fish oil",2037,0.660503315746589
+"Catfish","Fish oil",2038,0.641015887968371
+"Catfish","Fish oil",2039,0.622103415428621
+"Catfish","Fish oil",2040,0.603748934701988
+"Catfish","Fish oil",2041,0.585935982850441
+"Catfish","Fish oil",2042,0.568648582656927
+"Catfish","Fish oil",2043,0.55187122829469
+"Catfish","Fish oil",2044,0.535588871419445
+"Catfish","Fish oil",2045,0.519786907671839
+"Catfish","Fish oil",2046,0.504451163578157
+"Catfish","Fish oil",2047,0.489567883837534
+"Catfish","Fish oil",2048,0.475123718984198
+"Catfish","Fish oil",2049,0.461105713413769
+"Catfish","Fish oil",2050,0.447501293762801
+"Chinese carp species","Fishmeal",2020,0.991202729631258
+"Chinese carp species","Fishmeal",2021,0.874455708606483
+"Chinese carp species","Fishmeal",2022,0.771459524328504
+"Chinese carp species","Fishmeal",2023,0.680594559358051
+"Chinese carp species","Fishmeal",2024,0.600431959967025
+"Chinese carp species","Fishmeal",2025,0.529711167379711
+"Chinese carp species","Fishmeal",2026,0.467320095456268
+"Chinese carp species","Fishmeal",2027,0.412277643111689
+"Chinese carp species","Fishmeal",2028,0.363718266478091
+"Chinese carp species","Fishmeal",2029,0.320878368206817
+"Chinese carp species","Fishmeal",2030,0.283084289882011
+"Chinese carp species","Fishmeal",2031,0.249741718726118
+"Chinese carp species","Fishmeal",2032,0.220326342017331
+"Chinese carp species","Fishmeal",2033,0.194375602259599
+"Chinese carp species","Fishmeal",2034,0.171481423455081
+"Chinese carp species","Fishmeal",2035,0.151283794099358
+"Chinese carp species","Fishmeal",2036,0.133465105992032
+"Chinese carp species","Fishmeal",2037,0.117745159840227
+"Chinese carp species","Fishmeal",2038,0.103876759118057
+"Chinese carp species","Fishmeal",2039,0.0916418228954207
+"Chinese carp species","Fishmeal",2040,0.0808479565101831
+"Chinese carp species","Fishmeal",2041,0.0713254261575702
+"Chinese carp species","Fishmeal",2042,0.0629244898220572
+"Chinese carp species","Fishmeal",2043,0.0555130425806217
+"Chinese carp species","Fishmeal",2044,0.0489745392497008
+"Chinese carp species","Fishmeal",2045,0.0432061617094266
+"Chinese carp species","Fishmeal",2046,0.0381172020862355
+"Chinese carp species","Fishmeal",2047,0.0336276363694172
+"Chinese carp species","Fishmeal",2048,0.0296668660316536
+"Chinese carp species","Fishmeal",2049,0.026172607865491
+"Chinese carp species","Fishmeal",2050,0.0230899145784339
+"Chinese carp species","Fish oil",2020,0
+"Chinese carp species","Fish oil",2021,0
+"Chinese carp species","Fish oil",2022,0
+"Chinese carp species","Fish oil",2023,0
+"Chinese carp species","Fish oil",2024,0
+"Chinese carp species","Fish oil",2025,0
+"Chinese carp species","Fish oil",2026,0
+"Chinese carp species","Fish oil",2027,0
+"Chinese carp species","Fish oil",2028,0
+"Chinese carp species","Fish oil",2029,0
+"Chinese carp species","Fish oil",2030,0
+"Chinese carp species","Fish oil",2031,0
+"Chinese carp species","Fish oil",2032,0
+"Chinese carp species","Fish oil",2033,0
+"Chinese carp species","Fish oil",2034,0
+"Chinese carp species","Fish oil",2035,0
+"Chinese carp species","Fish oil",2036,0
+"Chinese carp species","Fish oil",2037,0
+"Chinese carp species","Fish oil",2038,0
+"Chinese carp species","Fish oil",2039,0
+"Chinese carp species","Fish oil",2040,0
+"Chinese carp species","Fish oil",2041,0
+"Chinese carp species","Fish oil",2042,0
+"Chinese carp species","Fish oil",2043,0
+"Chinese carp species","Fish oil",2044,0
+"Chinese carp species","Fish oil",2045,0
+"Chinese carp species","Fish oil",2046,0
+"Chinese carp species","Fish oil",2047,0
+"Chinese carp species","Fish oil",2048,0
+"Chinese carp species","Fish oil",2049,0
+"Chinese carp species","Fish oil",2050,0
+"Eel","Fishmeal",2020,25.5801821375848
+"Eel","Fishmeal",2021,24.2075760048099
+"Eel","Fishmeal",2022,22.908622498338
+"Eel","Fishmeal",2023,21.6793694943712
+"Eel","Fishmeal",2024,20.5160769359911
+"Eel","Fishmeal",2025,19.4152054538664
+"Eel","Fishmeal",2026,18.3734055975668
+"Eel","Fishmeal",2027,17.3875076447088
+"Eel","Fishmeal",2028,16.4545119569365
+"Eel","Fishmeal",2029,15.5715798533875
+"Eel","Fishmeal",2030,14.7360249738799
+"Eel","Fishmeal",2031,13.9453051055429
+"Eel","Fishmeal",2032,13.1970144480202
+"Eel","Fishmeal",2033,12.4888762937163
+"Eel","Fishmeal",2034,11.8187361008115
+"Eel","Fishmeal",2035,11.1845549379736
+"Eel","Fishmeal",2036,10.5844032808178
+"Eel","Fishmeal",2037,10.0164551412436
+"Eel","Fishmeal",2038,9.47898251178431
+"Eel","Fishmeal",2039,8.97035010806812
+"Eel","Fishmeal",2040,8.48901039339186
+"Eel","Fishmeal",2041,8.03349887027271
+"Eel","Fishmeal",2042,7.60242962464859
+"Eel","Fishmeal",2043,7.19449110917387
+"Eel","Fishmeal",2044,6.80844215277739
+"Eel","Fishmeal",2045,6.44310818434517
+"Eel","Fishmeal",2046,6.09737765903472
+"Eel","Fishmeal",2047,5.77019867635123
+"Eel","Fishmeal",2048,5.4605757796928
+"Eel","Fishmeal",2049,5.16756692763011
+"Eel","Fishmeal",2050,4.89028062770318
+"Eel","Fish oil",2020,2.09176422980859
+"Eel","Fish oil",2021,1.96448531690317
+"Eel","Fish oil",2022,1.84495102523159
+"Eel","Fish oil",2023,1.73269011288359
+"Eel","Fish oil",2024,1.6272600119061
+"Eel","Fish oil",2025,1.52824508356075
+"Eel","Fish oil",2026,1.43525497974464
+"Eel","Fish oil",2027,1.34792310411508
+"Eel","Fish oil",2028,1.26590516685091
+"Eel","Fish oil",2029,1.18887782735343
+"Eel","Fish oil",2030,1.1165374195357
+"Eel","Fish oil",2031,1.0485987546749
+"Eel","Fish oil",2032,0.984793997108499
+"Eel","Fish oil",2033,0.924871608341372
+"Eel","Fish oil",2034,0.868595355401739
+"Eel","Fish oil",2035,0.815743379536203
+"Eel","Fish oil",2036,0.766107321572495
+"Eel","Fish oil",2037,0.719491500501896
+"Eel","Fish oil",2038,0.675712142042862
+"Eel","Fish oil",2039,0.634596654144838
+"Eel","Fish oil",2040,0.595982946575909
+"Eel","Fish oil",2041,0.559718791911931
+"Eel","Fish oil",2042,0.525661225407981
+"Eel","Fish oil",2043,0.493675981386185
+"Eel","Fish oil",2044,0.463636963918091
+"Eel","Fish oil",2045,0.43542574971463
+"Eel","Fish oil",2046,0.408931121264186
+"Eel","Fish oil",2047,0.384048628378042
+"Eel","Fish oil",2048,0.360680176414767
+"Eel","Fish oil",2049,0.338733639560176
+"Eel","Fish oil",2050,0.318122497638286
+"Freshwater crustaceans","Fishmeal",2020,5.63556920224319
+"Freshwater crustaceans","Fishmeal",2021,5.21277207116906
+"Freshwater crustaceans","Fishmeal",2022,4.82169443596663
+"Freshwater crustaceans","Fishmeal",2023,4.45995660589427
+"Freshwater crustaceans","Fishmeal",2024,4.12535742167415
+"Freshwater crustaceans","Fishmeal",2025,3.81586086153166
+"Freshwater crustaceans","Fishmeal",2026,3.52958365209008
+"Freshwater crustaceans","Fishmeal",2027,3.2647838087317
+"Freshwater crustaceans","Fishmeal",2028,3.01985003569611
+"Freshwater crustaceans","Fishmeal",2029,2.79329192141402
+"Freshwater crustaceans","Fishmeal",2030,2.58373086941666
+"Freshwater crustaceans","Fishmeal",2031,2.38989170963457
+"Freshwater crustaceans","Fishmeal",2032,2.21059493904238
+"Freshwater crustaceans","Fishmeal",2033,2.04474954443312
+"Freshwater crustaceans","Fishmeal",2034,1.8913463636493
+"Freshwater crustaceans","Fishmeal",2035,1.74945194487438
+"Freshwater crustaceans","Fishmeal",2036,1.61820286661795
+"Freshwater crustaceans","Fishmeal",2037,1.49680048383301
+"Freshwater crustaceans","Fishmeal",2038,1.38450606819473
+"Freshwater crustaceans","Fishmeal",2039,1.28063631297032
+"Freshwater crustaceans","Fishmeal",2040,1.18455917512637
+"Freshwater crustaceans","Fishmeal",2041,1.09569002937416
+"Freshwater crustaceans","Fishmeal",2042,1.01348811074959
+"Freshwater crustaceans","Fishmeal",2043,0.93745322408154
+"Freshwater crustaceans","Fishmeal",2044,0.8671227003254
+"Freshwater crustaceans","Fishmeal",2045,0.80206858124178
+"Freshwater crustaceans","Fishmeal",2046,0.741895015288807
+"Freshwater crustaceans","Fishmeal",2047,0.686235848882449
+"Freshwater crustaceans","Fishmeal",2048,0.634752398367435
+"Freshwater crustaceans","Fishmeal",2049,0.587131389141737
+"Freshwater crustaceans","Fishmeal",2050,0.543083049393943
+"Freshwater crustaceans","Fish oil",2020,0.823846227416222
+"Freshwater crustaceans","Fish oil",2021,0.78764542071056
+"Freshwater crustaceans","Fish oil",2022,0.753035321545382
+"Freshwater crustaceans","Fish oil",2023,0.7199460322938
+"Freshwater crustaceans","Fish oil",2024,0.688310726715832
+"Freshwater crustaceans","Fish oil",2025,0.658065514997839
+"Freshwater crustaceans","Fish oil",2026,0.629149314722451
+"Freshwater crustaceans","Fish oil",2027,0.601503727508078
+"Freshwater crustaceans","Fish oil",2028,0.575072921069188
+"Freshwater crustaceans","Fish oil",2029,0.549803516458844
+"Freshwater crustaceans","Fish oil",2030,0.525644480266089
+"Freshwater crustaceans","Fish oil",2031,0.502547021550171
+"Freshwater crustaceans","Fish oil",2032,0.480464493303729
+"Freshwater crustaceans","Fish oil",2033,0.459352298245719
+"Freshwater crustaceans","Fish oil",2034,0.439167798753931
+"Freshwater crustaceans","Fish oil",2035,0.419870230755231
+"Freshwater crustaceans","Fish oil",2036,0.401420621399488
+"Freshwater crustaceans","Fish oil",2037,0.3837817103511
+"Freshwater crustaceans","Fish oil",2038,0.366917874538972
+"Freshwater crustaceans","Fish oil",2039,0.350795056213164
+"Freshwater crustaceans","Fish oil",2040,0.335380694162734
+"Freshwater crustaceans","Fish oil",2041,0.320643657956027
+"Freshwater crustaceans","Fish oil",2042,0.306554185070454
+"Freshwater crustaceans","Fish oil",2043,0.293083820784939
+"Freshwater crustaceans","Fish oil",2044,0.280205360713492
+"Freshwater crustaceans","Fish oil",2045,0.267892795863994
+"Freshwater crustaceans","Fish oil",2046,0.256121260111107
+"Freshwater crustaceans","Fish oil",2047,0.244866979977339
+"Freshwater crustaceans","Fish oil",2048,0.234107226620745
+"Freshwater crustaceans","Fish oil",2049,0.223820269932389
+"Freshwater crustaceans","Fish oil",2050,0.213985334650789
+"Freshwater fish","Fishmeal",2020,16.2261754117295
+"Freshwater fish","Fishmeal",2021,15.1406188291447
+"Freshwater fish","Fishmeal",2022,14.1276876844151
+"Freshwater fish","Fishmeal",2023,13.1825232218496
+"Freshwater fish","Fishmeal",2024,12.300591744133
+"Freshwater fish","Fishmeal",2025,11.4776628654103
+"Freshwater fish","Fishmeal",2026,10.709789219275
+"Freshwater fish","Fishmeal",2027,9.99328752432372
+"Freshwater fish","Fishmeal",2028,9.32472091645562
+"Freshwater fish","Fishmeal",2029,8.70088246316811
+"Freshwater fish","Fishmeal",2030,8.11877978077228
+"Freshwater fish","Fishmeal",2031,7.57562068074165
+"Freshwater fish","Fishmeal",2032,7.06879977634046
+"Freshwater fish","Fishmeal",2033,6.59588598529185
+"Freshwater fish","Fishmeal",2034,6.15461086853594
+"Freshwater fish","Fishmeal",2035,5.74285774914357
+"Freshwater fish","Fishmeal",2036,5.3586515591917
+"Freshwater fish","Fishmeal",2037,5.00014936589887
+"Freshwater fish","Fishmeal",2038,4.66563153157697
+"Freshwater fish","Fishmeal",2039,4.35349346499613
+"Freshwater fish","Fishmeal",2040,4.06223792459624
+"Freshwater fish","Fishmeal",2041,3.79046783662569
+"Freshwater fish","Fishmeal",2042,3.53687959375779
+"Freshwater fish","Fishmeal",2043,3.30025680204075
+"Freshwater fish","Fishmeal",2044,3.07946444618553
+"Freshwater fish","Fishmeal",2045,2.87344344520608
+"Freshwater fish","Fishmeal",2046,2.68120557229525
+"Freshwater fish","Fishmeal",2047,2.50182871456917
+"Freshwater fish","Fishmeal",2048,2.33445244994201
+"Freshwater fish","Fishmeal",2049,2.1782739199149
+"Freshwater fish","Fishmeal",2050,2.03254397848168
+"Freshwater fish","Fish oil",2020,2.09176422980859
+"Freshwater fish","Fish oil",2021,1.96448531690317
+"Freshwater fish","Fish oil",2022,1.84495102523159
+"Freshwater fish","Fish oil",2023,1.73269011288359
+"Freshwater fish","Fish oil",2024,1.6272600119061
+"Freshwater fish","Fish oil",2025,1.52824508356075
+"Freshwater fish","Fish oil",2026,1.43525497974464
+"Freshwater fish","Fish oil",2027,1.34792310411508
+"Freshwater fish","Fish oil",2028,1.26590516685091
+"Freshwater fish","Fish oil",2029,1.18887782735343
+"Freshwater fish","Fish oil",2030,1.1165374195357
+"Freshwater fish","Fish oil",2031,1.0485987546749
+"Freshwater fish","Fish oil",2032,0.984793997108499
+"Freshwater fish","Fish oil",2033,0.924871608341372
+"Freshwater fish","Fish oil",2034,0.868595355401739
+"Freshwater fish","Fish oil",2035,0.815743379536203
+"Freshwater fish","Fish oil",2036,0.766107321572495
+"Freshwater fish","Fish oil",2037,0.719491500501896
+"Freshwater fish","Fish oil",2038,0.675712142042862
+"Freshwater fish","Fish oil",2039,0.634596654144838
+"Freshwater fish","Fish oil",2040,0.595982946575909
+"Freshwater fish","Fish oil",2041,0.559718791911931
+"Freshwater fish","Fish oil",2042,0.525661225407981
+"Freshwater fish","Fish oil",2043,0.493675981386185
+"Freshwater fish","Fish oil",2044,0.463636963918091
+"Freshwater fish","Fish oil",2045,0.43542574971463
+"Freshwater fish","Fish oil",2046,0.408931121264186
+"Freshwater fish","Fish oil",2047,0.384048628378042
+"Freshwater fish","Fish oil",2048,0.360680176414767
+"Freshwater fish","Fish oil",2049,0.338733639560176
+"Freshwater fish","Fish oil",2050,0.318122497638286
+"Marine fish","Fishmeal",2020,8.78425063854145
+"Marine fish","Fishmeal",2021,7.98426841909375
+"Marine fish","Fishmeal",2022,7.25714062716255
+"Marine fish","Fishmeal",2023,6.59623240577265
+"Marine fish","Fishmeal",2024,5.99551313476161
+"Marine fish","Fishmeal",2025,5.44950140289795
+"Marine fish","Fishmeal",2026,4.95321499139151
+"Marine fish","Fishmeal",2027,4.50212541240917
+"Marine fish","Fishmeal",2028,4.09211658776923
+"Marine fish","Fishmeal",2029,3.7194472907709
+"Marine fish","Fishmeal",2030,3.38071700844784
+"Marine fish","Fishmeal",2031,3.07283491274847
+"Marine fish","Fishmeal",2032,2.79299165751263
+"Marine fish","Fishmeal",2033,2.53863374389931
+"Marine fish","Fishmeal",2034,2.3074402203563
+"Marine fish","Fishmeal",2035,2.09730150452492
+"Marine fish","Fishmeal",2036,1.9063001338355
+"Marine fish","Fishmeal",2037,1.73269326914654
+"Marine fish","Fishmeal",2038,1.57489679177916
+"Marine fish","Fishmeal",2039,1.43147084883524
+"Marine fish","Fishmeal",2040,1.30110671490429
+"Marine fish","Fishmeal",2041,1.18261485027549
+"Marine fish","Fishmeal",2042,1.0749140466891
+"Marine fish","Fishmeal",2043,0.977021561584799
+"Marine fish","Fishmeal",2044,0.888044150824709
+"Marine fish","Fishmeal",2045,0.807169918066904
+"Marine fish","Fishmeal",2046,0.733660906416731
+"Marine fish","Fishmeal",2047,0.666846364757122
+"Marine fish","Fishmeal",2048,0.606116627314474
+"Marine fish","Fishmeal",2049,0.550917550612845
+"Marine fish","Fishmeal",2050,0.500745457055057
+"Marine fish","Fish oil",2020,2.95269668368034
+"Marine fish","Fish oil",2021,2.75814520255429
+"Marine fish","Fish oil",2022,2.57641260628613
+"Marine fish","Fish oil",2023,2.40665426594755
+"Marine fish","Fish oil",2024,2.24808120472312
+"Marine fish","Fish oil",2025,2.0999564310246
+"Marine fish","Fish oil",2026,1.9615915132143
+"Marine fish","Fish oil",2027,1.83234338001816
+"Marine fish","Fish oil",2028,1.71161133175721
+"Marine fish","Fish oil",2029,1.59883424850786
+"Marine fish","Fish oil",2030,1.49348798221459
+"Marine fish","Fish oil",2031,1.39508292063487
+"Marine fish","Fish oil",2032,1.30316171179439
+"Marine fish","Fish oil",2033,1.21729713837659
+"Marine fish","Fish oil",2034,1.13709013216745
+"Marine fish","Fish oil",2035,1.06216791932731
+"Marine fish","Fish oil",2036,0.992182287869851
+"Marine fish","Fish oil",2037,0.926807969295581
+"Marine fish","Fish oil",2038,0.865741126858811
+"Marine fish","Fish oil",2039,0.808697943441753
+"Marine fish","Fish oil",2040,0.755413302472781
+"Marine fish","Fish oil",2041,0.70563955575823
+"Marine fish","Fish oil",2042,0.659145372501054
+"Marine fish","Fish oil",2043,0.615714664156971
+"Marine fish","Fish oil",2044,0.57514558013121
+"Marine fish","Fish oil",2045,0.537249569648292
+"Marine fish","Fish oil",2046,0.501850505434515
+"Marine fish","Fish oil",2047,0.468783865140651
+"Marine fish","Fish oil",2048,0.437895966700156
+"Marine fish","Fish oil",2049,0.409043254069189
+"Marine fish","Fish oil",2050,0.382091630028826
+"Milkfish (Chanos chanos)","Fishmeal",2020,1.05272588739245
+"Milkfish (Chanos chanos)","Fishmeal",2021,0.966269113473809
+"Milkfish (Chanos chanos)","Fishmeal",2022,0.886912738477585
+"Milkfish (Chanos chanos)","Fishmeal",2023,0.814073630943115
+"Milkfish (Chanos chanos)","Fishmeal",2024,0.747216550000694
+"Milkfish (Chanos chanos)","Fishmeal",2025,0.685850212281313
+"Milkfish (Chanos chanos)","Fishmeal",2026,0.629523681837444
+"Milkfish (Chanos chanos)","Fishmeal",2027,0.577823056547562
+"Milkfish (Chanos chanos)","Fishmeal",2028,0.530368426654649
+"Milkfish (Chanos chanos)","Fishmeal",2029,0.4868110830897
+"Milkfish (Chanos chanos)","Fishmeal",2030,0.446830955066047
+"Milkfish (Chanos chanos)","Fishmeal",2031,0.410134258115169
+"Milkfish (Chanos chanos)","Fishmeal",2032,0.376451335281396
+"Milkfish (Chanos chanos)","Fishmeal",2033,0.345534675611896
+"Milkfish (Chanos chanos)","Fishmeal",2034,0.31715709538118
+"Milkfish (Chanos chanos)","Fishmeal",2035,0.291110068685584
+"Milkfish (Chanos chanos)","Fishmeal",2036,0.267202195140151
+"Milkfish (Chanos chanos)","Fishmeal",2037,0.245257793418428
+"Milkfish (Chanos chanos)","Fishmeal",2038,0.225115610300011
+"Milkfish (Chanos chanos)","Fishmeal",2039,0.206627635739535
+"Milkfish (Chanos chanos)","Fishmeal",2040,0.189658015250083
+"Milkfish (Chanos chanos)","Fishmeal",2041,0.174082051608736
+"Milkfish (Chanos chanos)","Fishmeal",2042,0.159785288548686
+"Milkfish (Chanos chanos)","Fishmeal",2043,0.14666266970458
+"Milkfish (Chanos chanos)","Fishmeal",2044,0.134617766630753
+"Milkfish (Chanos chanos)","Fishmeal",2045,0.123562070219738
+"Milkfish (Chanos chanos)","Fishmeal",2046,0.113414340314126
+"Milkfish (Chanos chanos)","Fishmeal",2047,0.104100008732561
+"Milkfish (Chanos chanos)","Fishmeal",2048,0.0955506313232048
+"Milkfish (Chanos chanos)","Fishmeal",2049,0.0877033850181352
+"Milkfish (Chanos chanos)","Fishmeal",2050,0.0805006061929708
+"Milkfish (Chanos chanos)","Fish oil",2020,0.621213213800464
+"Milkfish (Chanos chanos)","Fish oil",2021,0.59807792727202
+"Milkfish (Chanos chanos)","Fish oil",2022,0.575804247468711
+"Milkfish (Chanos chanos)","Fish oil",2023,0.554360086344085
+"Milkfish (Chanos chanos)","Fish oil",2024,0.533714550878024
+"Milkfish (Chanos chanos)","Fish oil",2025,0.513837898571447
+"Milkfish (Chanos chanos)","Fish oil",2026,0.494701494598491
+"Milkfish (Chanos chanos)","Fish oil",2027,0.476277770554434
+"Milkfish (Chanos chanos)","Fish oil",2028,0.458540184739904
+"Milkfish (Chanos chanos)","Fish oil",2029,0.441463183924254
+"Milkfish (Chanos chanos)","Fish oil",2030,0.425022166532877
+"Milkfish (Chanos chanos)","Fish oil",2031,0.409193447205543
+"Milkfish (Chanos chanos)","Fish oil",2032,0.393954222674652
+"Milkfish (Chanos chanos)","Fish oil",2033,0.379282538914241
+"Milkfish (Chanos chanos)","Fish oil",2034,0.365157259512449
+"Milkfish (Chanos chanos)","Fish oil",2035,0.351558035221841
+"Milkfish (Chanos chanos)","Fish oil",2036,0.338465274643753
+"Milkfish (Chanos chanos)","Fish oil",2037,0.325860116004409
+"Milkfish (Chanos chanos)","Fish oil",2038,0.313724399982155
+"Milkfish (Chanos chanos)","Fish oil",2039,0.302040643546667
+"Milkfish (Chanos chanos)","Fish oil",2040,0.290792014772437
+"Milkfish (Chanos chanos)","Fish oil",2041,0.279962308590266
+"Milkfish (Chanos chanos)","Fish oil",2042,0.269535923441799
+"Milkfish (Chanos chanos)","Fish oil",2043,0.259497838803539
+"Milkfish (Chanos chanos)","Fish oil",2044,0.249833593547867
+"Milkfish (Chanos chanos)","Fish oil",2045,0.24052926510997
+"Milkfish (Chanos chanos)","Fish oil",2046,0.23157144943063
+"Milkfish (Chanos chanos)","Fish oil",2047,0.222947241645981
+"Milkfish (Chanos chanos)","Fish oil",2048,0.214644217496429
+"Milkfish (Chanos chanos)","Fish oil",2049,0.206650415427935
+"Milkfish (Chanos chanos)","Fish oil",2050,0.198954319359891
+"Salmon","Fishmeal",2020,7.60317375593001
+"Salmon","Fishmeal",2021,6.9137656758485
+"Salmon","Fishmeal",2022,6.28686879387173
+"Salmon","Fishmeal",2023,5.71681498686423
+"Salmon","Fishmeal",2024,5.19845008152436
+"Salmon","Fishmeal",2025,4.72708725263884
+"Salmon","Fishmeal",2026,4.29846464689099
+"Salmon","Fishmeal",2027,3.90870684907661
+"Salmon","Fishmeal",2028,3.5542898423205
+"Salmon","Fishmeal",2029,3.23200914548173
+"Salmon","Fishmeal",2030,2.93895083965851
+"Salmon","Fishmeal",2031,2.67246522182784
+"Salmon","Fishmeal",2032,2.43014284740782
+"Salmon","Fishmeal",2033,2.20979274513
+"Salmon","Fishmeal",2034,2.00942260725042
+"Salmon","Fishmeal",2035,1.82722077598799
+"Salmon","Fishmeal",2036,1.66153986331959
+"Salmon","Fishmeal",2037,1.51088185602933
+"Salmon","Fishmeal",2038,1.37388457133847
+"Salmon","Fishmeal",2039,1.24930934065388
+"Salmon","Fishmeal",2040,1.13602981007675
+"Salmon","Fishmeal",2041,1.03302175641103
+"Salmon","Fishmeal",2042,0.939353826592344
+"Salmon","Fishmeal",2043,0.854179116807084
+"Salmon","Fishmeal",2044,0.776727515164494
+"Salmon","Fishmeal",2045,0.706298738686988
+"Salmon","Fishmeal",2046,0.642256001662543
+"Salmon","Fishmeal",2047,0.584020258111153
+"Salmon","Fishmeal",2048,0.531064966308294
+"Salmon","Fishmeal",2049,0.482911328028543
+"Salmon","Fishmeal",2050,0.43912395946471
+"Salmon","Fish oil",2020,5.57430822086492
+"Salmon","Fish oil",2021,5.1187285989823
+"Salmon","Fish oil",2022,4.70038279762957
+"Salmon","Fish oil",2023,4.31622775402572
+"Salmon","Fish oil",2024,3.96346911022151
+"Salmon","Fish oil",2025,3.63954088683777
+"Salmon","Fish oil",2026,3.34208681803582
+"Salmon","Fish oil",2027,3.06894321195381
+"Salmon","Fish oil",2028,2.81812321193152
+"Salmon","Fish oil",2029,2.58780234404252
+"Salmon","Fish oil",2030,2.37630524580289
+"Salmon","Fish oil",2031,2.18209347952338
+"Salmon","Fish oil",2032,2.00375434165635
+"Salmon","Fish oil",2033,1.83999058673865
+"Salmon","Fish oil",2034,1.68961099117976
+"Salmon","Fish oil",2035,1.55152168825798
+"Salmon","Fish oil",2036,1.42471821129312
+"Salmon","Fish oil",2037,1.30827818711923
+"Salmon","Fish oil",2038,1.20135462670786
+"Salmon","Fish oil",2039,1.10316976413893
+"Salmon","Fish oil",2040,1.01300939910247
+"Salmon","Fish oil",2041,0.930217701779526
+"Salmon","Fish oil",2042,0.854192442311613
+"Salmon","Fish oil",2043,0.784380610158755
+"Salmon","Fish oil",2044,0.720274391480224
+"Salmon","Fish oil",2045,0.661407475278131
+"Salmon","Fish oil",2046,0.607351661433863
+"Salmon","Fish oil",2047,0.557713745964795
+"Salmon","Fish oil",2048,0.51213266084388
+"Salmon","Fish oil",2049,0.470276847577625
+"Salmon","Fish oil",2050,0.431841845437338
+"Shrimp","Fishmeal",2020,4.81647678371939
+"Shrimp","Fishmeal",2021,4.35005518854021
+"Shrimp","Fishmeal",2022,3.92880127800239
+"Shrimp","Fishmeal",2023,3.54834106994699
+"Shrimp","Fishmeal",2024,3.20472415318352
+"Shrimp","Fishmeal",2025,2.89438266940648
+"Shrimp","Fishmeal",2026,2.61409426725186
+"Shrimp","Fishmeal",2027,2.36094864383647
+"Shrimp","Fishmeal",2028,2.13231732637293
+"Shrimp","Fishmeal",2029,1.92582638009517
+"Shrimp","Fishmeal",2030,1.73933175911446
+"Shrimp","Fishmeal",2031,1.57089704426766
+"Shrimp","Fishmeal",2032,1.41877333680451
+"Shrimp","Fishmeal",2033,1.28138109914505
+"Shrimp","Fishmeal",2034,1.15729375415547
+"Shrimp","Fishmeal",2035,1.04522287264958
+"Shrimp","Fishmeal",2036,0.944004795314139
+"Shrimp","Fishmeal",2037,0.852588550150136
+"Shrimp","Fishmeal",2038,0.770024939974184
+"Shrimp","Fishmeal",2039,0.695456686672407
+"Shrimp","Fishmeal",2040,0.628109529872601
+"Shrimp","Fishmeal",2041,0.567284187609829
+"Shrimp","Fishmeal",2042,0.512349095511123
+"Shrimp","Fishmeal",2043,0.462733849108467
+"Shrimp","Fishmeal",2044,0.417923281190001
+"Shrimp","Fishmeal",2045,0.377452112693133
+"Shrimp","Fishmeal",2046,0.340900121598486
+"Shrimp","Fishmeal",2047,0.307887779662114
+"Shrimp","Fishmeal",2048,0.278072311681121
+"Shrimp","Fishmeal",2049,0.25114413637508
+"Shrimp","Fishmeal",2050,0.226823651928043
+"Shrimp","Fish oil",2020,1.10322206979923
+"Shrimp","Fish oil",2021,1.05424013268768
+"Shrimp","Fish oil",2022,1.00743294373328
+"Shrimp","Fish oil",2023,0.962703946331125
+"Shrimp","Fish oil",2024,0.919960870891369
+"Shrimp","Fish oil",2025,0.879115544500022
+"Shrimp","Fish oil",2026,0.840083709030739
+"Shrimp","Fish oil",2027,0.802784847332244
+"Shrimp","Fish oil",2028,0.7671420171328
+"Shrimp","Fish oil",2029,0.733081692319262
+"Shrimp","Fish oil",2030,0.700533611263065
+"Shrimp","Fish oil",2031,0.669430631880447
+"Shrimp","Fish oil",2032,0.639708593127841
+"Shrimp","Fish oil",2033,0.611306182646687
+"Shrimp","Fish oil",2034,0.584164810284774
+"Shrimp","Fish oil",2035,0.55822848723301
+"Shrimp","Fish oil",2036,0.533443710528444
+"Shrimp","Fish oil",2037,0.509759352685237
+"Shrimp","Fish oil",2038,0.487126556225866
+"Shrimp","Fish oil",2039,0.465498632895105
+"Shrimp","Fish oil",2040,0.444830967348739
+"Shrimp","Fish oil",2041,0.425080925118434
+"Shrimp","Fish oil",2042,0.406207764662843
+"Shrimp","Fish oil",2043,0.388172553323607
+"Shrimp","Fish oil",2044,0.37093808701277
+"Shrimp","Fish oil",2045,0.354468813466017
+"Shrimp","Fish oil",2046,0.338730758903392
+"Shrimp","Fish oil",2047,0.323691457946176
+"Shrimp","Fish oil",2048,0.30931988664544
+"Shrimp","Fish oil",2049,0.295586398484007
+"Shrimp","Fish oil",2050,0.282462663219893
+"Tilapia","Fishmeal",2020,0.961545822641489
+"Tilapia","Fishmeal",2021,0.841143457683326
+"Tilapia","Fishmeal",2022,0.735817575973454
+"Tilapia","Fishmeal",2023,0.643680337956438
+"Tilapia","Fishmeal",2024,0.563080294628164
+"Tilapia","Fishmeal",2025,0.492572787301757
+"Tilapia","Fishmeal",2026,0.430894053840837
+"Tilapia","Fishmeal",2027,0.376938577245531
+"Tilapia","Fishmeal",2028,0.329739270591967
+"Tilapia","Fishmeal",2029,0.288450143164022
+"Tilapia","Fishmeal",2030,0.252331137088929
+"Tilapia","Fishmeal",2031,0.220734862691284
+"Tilapia","Fishmeal",2032,0.19309499481298
+"Tilapia","Fishmeal",2033,0.16891612211693
+"Tilapia","Fishmeal",2034,0.14776486743562
+"Tilapia","Fishmeal",2035,0.129262120007418
+"Tilapia","Fishmeal",2036,0.113076240372854
+"Tilapia","Fishmeal",2037,0.098917116136769
+"Tilapia","Fishmeal",2038,0.086530962053139
+"Tilapia","Fishmeal",2039,0.0756957712302181
+"Tilapia","Fishmeal",2040,0.0662173359244381
+"Tilapia","Fishmeal",2041,0.0579257666005453
+"Tilapia","Fishmeal",2042,0.0506724468663274
+"Tilapia","Fishmeal",2043,0.0443273697028052
+"Tilapia","Fishmeal",2044,0.0387768072450237
+"Tilapia","Fishmeal",2045,0.0339212723470593
+"Tilapia","Fishmeal",2046,0.0296737353947838
+"Tilapia","Fishmeal",2047,0.0259580644048565
+"Tilapia","Fishmeal",2048,0.022707660450633
+"Tilapia","Fishmeal",2049,0.0198642639566288
+"Tilapia","Fishmeal",2050,0.0173769104658082
+"Tilapia","Fish oil",2020,0
+"Tilapia","Fish oil",2021,0
+"Tilapia","Fish oil",2022,0
+"Tilapia","Fish oil",2023,0
+"Tilapia","Fish oil",2024,0
+"Tilapia","Fish oil",2025,0
+"Tilapia","Fish oil",2026,0
+"Tilapia","Fish oil",2027,0
+"Tilapia","Fish oil",2028,0
+"Tilapia","Fish oil",2029,0
+"Tilapia","Fish oil",2030,0
+"Tilapia","Fish oil",2031,0
+"Tilapia","Fish oil",2032,0
+"Tilapia","Fish oil",2033,0
+"Tilapia","Fish oil",2034,0
+"Tilapia","Fish oil",2035,0
+"Tilapia","Fish oil",2036,0
+"Tilapia","Fish oil",2037,0
+"Tilapia","Fish oil",2038,0
+"Tilapia","Fish oil",2039,0
+"Tilapia","Fish oil",2040,0
+"Tilapia","Fish oil",2041,0
+"Tilapia","Fish oil",2042,0
+"Tilapia","Fish oil",2043,0
+"Tilapia","Fish oil",2044,0
+"Tilapia","Fish oil",2045,0
+"Tilapia","Fish oil",2046,0
+"Tilapia","Fish oil",2047,0
+"Tilapia","Fish oil",2048,0
+"Tilapia","Fish oil",2049,0
+"Tilapia","Fish oil",2050,0
+"Trout","Fishmeal",2020,7.63287197058606
+"Trout","Fishmeal",2021,6.9471519407105
+"Trout","Fishmeal",2022,6.32303545419099
+"Trout","Fishmeal",2023,5.75498818741374
+"Trout","Fishmeal",2024,5.23797300793552
+"Trout","Fishmeal",2025,4.76740530794917
+"Trout","Fishmeal",2026,4.33911235048917
+"Trout","Fishmeal",2027,3.94929626788267
+"Trout","Fishmeal",2028,3.59450038433625
+"Trout","Fishmeal",2029,3.27157856402626
+"Trout","Fishmeal",2030,2.97766731288653
+"Trout","Fishmeal",2031,2.71016038670979
+"Trout","Fishmeal",2032,2.46668568039954
+"Trout","Fishmeal",2033,2.24508419343954
+"Trout","Fishmeal",2034,2.04339088505817
+"Trout","Fishmeal",2035,1.85981724932195
+"Trout","Fishmeal",2036,1.69273545564289
+"Trout","Fishmeal",2037,1.54066391406747
+"Trout","Fishmeal",2038,1.40225413734729
+"Trout","Fishmeal",2039,1.27627878329178
+"Trout","Fishmeal",2040,1.16162077136898
+"Trout","Fishmeal",2041,1.05726337704654
+"Trout","Fishmeal",2042,0.96228121603447
+"Trout","Fishmeal",2043,0.875832038483653
+"Trout","Fishmeal",2044,0.79714926037479
+"Trout","Fishmeal",2045,0.725535165870659
+"Trout","Fishmeal",2046,0.660354720353695
+"Trout","Fishmeal",2047,0.601029939286441
+"Trout","Fishmeal",2048,0.547034762960699
+"Trout","Fishmeal",2049,0.497890391687879
+"Trout","Fishmeal",2050,0.453161040065235
+"Trout","Fish oil",2020,3.78506957250626
+"Trout","Fish oil",2021,3.45282632931099
+"Trout","Fish oil",2022,3.14974650584527
+"Trout","Fish oil",2023,2.87327021543667
+"Trout","Fish oil",2024,2.62106227139063
+"Trout","Fish oil",2025,2.39099246343015
+"Trout","Fish oil",2026,2.18111756541619
+"Trout","Fish oil",2027,1.98966492238209
+"Trout","Fish oil",2028,1.8150174782543
+"Trout","Fish oil",2029,1.65570011779902
+"Trout","Fish oil",2030,1.51036720743666
+"Trout","Fish oil",2031,1.3777912296899
+"Trout","Fish oil",2032,1.25685241526932
+"Trout","Fish oil",2033,1.14652928522699
+"Trout","Fish oil",2034,1.04589002329397
+"Trout","Fish oil",2035,0.954084605531283
+"Trout","Fish oil",2036,0.870337620818793
+"Trout","Fish oil",2037,0.793941721542282
+"Trout","Fish oil",2038,0.724251649161768
+"Trout","Fish oil",2039,0.660678784199157
+"Trout","Fish oil",2040,0.602686174613571
+"Trout","Fish oil",2041,0.549784000572412
+"Trout","Fish oil",2042,0.501525437312741
+"Trout","Fish oil",2043,0.457502881149427
+"Trout","Fish oil",2044,0.417344506754311
+"Trout","Fish oil",2045,0.380711126628099
+"Trout","Fish oil",2046,0.347293326239366
+"Trout","Fish oil",2047,0.316808850633429
+"Trout","Fish oil",2048,0.289000220437573
+"Trout","Fish oil",2049,0.263632557127028
+"Trout","Fish oil",2050,0.240491599183222
