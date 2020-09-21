@@ -143,6 +143,6 @@ preds_simple <- preds %>%
   filter(year>=2020)
 
 # Export
-write.csv(preds_simple, file=file.path("2020_2050_fmfo_projections.csv"), row.names=F)
+write.csv(preds_simple, file=file.path(outputdir, "2020_2050_fmfo_projections.csv"), row.names=F)
 
 
