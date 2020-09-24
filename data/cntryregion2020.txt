@@ -1,0 +1,351 @@
+//
+//LISTS FOR COSIMO AND AGLINK IN 2020
+//THESE LISTS DEFINE THE MODEL AND ITS AGGREGATIONS FOR COUNTRIES.
+//THESE LISTS ALSO DEFINE SPECIFIC MARKETS.	
+
+// REVISED: 2 November 2019			Normally the path for this file is "V:\Troll\programs\"
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// AGLINK AGGREGATES
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		"ARG", //Argentina
+		"AUS", //Australia
+		"BRA", //Brazil
+		"CAN", //Canada
+		"CHN", //China
+		"EUN", //European Union		
+           "GBR", //Great Britain
+		"JPN", //Japan
+		"KOR", //S. Korea
+		"MEX", //Mexico
+		"NZL", //New Zealand
+		"NOR", //Norway
+		"RUS", //Russia
+		"CHE", //Switzerland
+		"USA"  //United States
+
+		
+		
+// REGION EUN (E14+NMS): for a number of model parts, the EU is disaggregated into two parts representing the "old" and "new" member states.
+		
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// COSIMO COUNTRIES 	
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// COSIMO REGIONS
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+//These are the regional aggregates and the countries they //comprise.
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	/// RAF list and region construction
+	////////////////////////////////////////////////////////////////////////////////////////////////
+
+		dosave AFSregion=c.(
+			"BWA" , //		Botswana
+			"CMR" , //		Cameroon
+			"CPV" , //		Cabo Verde
+			"COG" , //		Congo
+			"GNQ" , //		Equatorial Guinea
+			"GAB" , //		Gabon
+			"GHA" , //		Ghana
+			"CIV" , //		Côte d'Ivoire
+			"KEN" , //		Kenya
+			"MUS" , //		Mauritius
+			"NAM" , //		Namibia
+			"ZWE" , //		Zimbabwe
+			"SYC" , //		Seychelles
+			"ESH" , //		Western Sahara
+			"SWZ"  //		Eswatini
+ 			//"MYT",		//	Mayotte
+			//"REU",		//	Réunion
+			//"SHN",		//	Saint Helena
+			); 
+			
+
+		DOSAVE aflregion=nasqueeze(unique'f(C.(			//	LDC Subsaharan Africa
+			"AGO" ,	//		Angola
+			"BDI" ,	//		Burundi
+			"CAF" ,	//		Central African Republic
+			"TCD" ,	//		Chad
+			"COM" ,	//		Comoros
+			"BEN" ,	//		Benin
+			"DJI" ,	//		Djibouti
+			"GMB" ,	//		Gambia
+			"GIN" ,	//		Guinea
+			"LSO" ,	//		Lesotho
+			"LBR" ,	//		Liberia
+			"MDG" ,	//		Madagascar
+			"MWI" ,	//		Malawi
+			"MLI" ,	//		Mali
+			"MOZ" ,	//		Mozambique
+			"NER" ,	//		Niger
+			"GNB" ,	//		Guinea-Bissau
+			"ERI" ,	//		Eritrea
+			"RWA" ,	//		Rwanda
+			"STP" ,	//		Sao Tome and Principe
+			"SEN" ,	//		Senegal
+			"SLE" ,	//		Sierra Leone
+			"SOM" ,	//		Somalia
+			"TZA" ,	//		United Republic of Tanzania
+			"TGO" ,	//		Togo
+			"UGA" ,	//		Uganda
+			"BFA" ,	//		Burkina Faso
+			"COD" ,	//		Democratic Republic of the Congo
+			"ZMB" ,	//		Zambia
+			//"SSD" 	//		South Sudan
+			NA)));
+			
+//Africa region:		
+		dosave RAFlist=c.(
+			"ETH",	//	Ethiopia
+			"NGA",	//	Nigeria
+			"ZAF",	//	South Africa
+			"AFS",	//	 Other Sub Saharan Africa
+			"AFL"	//	 LDC Subsaharan Africa
+		);
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	/// RNE list and region construction
+	////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Least Developed North Africa
+		dosave ANLregion=c.(
+			"MRT",	//	Mauritania
+			"SDN"	//	Sudan
+			);   
+
+	//  Other North Africa 
+		dosave AFNregion=c.(
+			"DZA",	//	Algeria
+			"LBY",	//	Libya
+			"MAR",	//	Morocco
+			"TUN"	     // 	Tunisia
+			);   
+
+
+	//  Other Near East
+		dosave NEOregion=c.(
+			"BHR",	//	Bahrain
+			"IRQ",	//	Iraq									
+			"JOR",	//	Jordan
+			"KWT",	//	Kuwait
+			"LBN",	//	Lebanon
+			"OMN",	//	Oman
+			"PSE",	//	Palestine
+			"QAT",	//	Qatar
+			"SYR",	//	Syria
+			"ARE",	//	United Arab Emirates
+			"YEM"	//	Yemen
+			);   
+	
+	// Region Near East and North Africa
+		dosave RNElist=c.(
+			"EGY",	//	Egypt
+			"IRN",	//	Iran									
+			"SAU",	//	Saudia Arabia
+			"ANL",	//	Least Developed North Africa
+			"AFN",	//	Other North Africa
+			"NEO"	     //    Other Near East
+			);
+
+
+
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	///  list and region construction
+	////////////////////////////////////////////////////////////////////////////////////////////////
+
+	
+	
+	// Other Central, South America and Caribbean
+		dosave SACregion=c.(
+			"ATG" , //		Antigua and Barbuda
+			"BOL" , //		Bolivia
+			"ECU" , //		Ecuador
+			"GUY" , //		Guyana
+			"JAM" , //		Jamaica
+			"SUR" , //		Suriname
+			"URY",	//	Uruguay 
+			"VEN" , //		Venezuela, Bolivarian Republic of
+			
+			"BHS" , //		Bahamas
+			"BRB" , //		Barbados
+			"BLZ" , //		Belize
+			"CRI" , //		Costa Rica
+			"CUB" , //		Cuba
+			"DMA" , //		Dominica
+			"DOM" , //		Dominican Republic
+			"SLV" , //		El Salvador
+			"GRD" , //		Grenada
+			"GTM" , //		Guatemala
+			"HND" , //		Honduras
+			"HTI" , //		Haiti
+			"NIC" , //		Nicaragua
+			"PAN" , //		Panama
+			"PRI" , //		Puerto Rico
+			"KNA" , //		Saint Kitts and Nevis
+			"LCA" , //		Saint Lucia
+			"VCT" , //		Saint Vincent and the Grenadines
+			"TTO"  //		Trinidad and Tobago
+			
+			);
+		//	"FLK",	//	Falkland Islands (Malvinas)
+		//	"GUF",	//	French Guiana
+		//	"SGS",	//	SouthGeorgia/Sandwich Islands - can not find this one?
+		//	"ABW",	//	Aruba
+		//	"CYM",	//	Cayman Islands
+		//	"GLP",	//	Guadeloupe
+		//	"MTQ",	//	Martinique
+		//	"MSR",	//	Montserrat
+		//	"ANT",	//	Antibbes
+		//	"TCA",	//	Turks and Caicos Islands
+		//	"VGB",	//	British Virgin Islands
+		//	"VIR"	     //    Virgin Islands
+		//	"AIA"	    //	 Anguilla
+		//	);
+
+	// Region Latin America and Caribbean		
+		dosave RLClist=c.(
+			"CHL",	//	Chile 
+			"COL",	//	Colombia 
+			"PER",	//	Peru			
+			"PRY",	//	Paraguay 
+			"SAC"	//	Other South America 
+			);
+
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	/// RAP list and region construction
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	 // China, Republic of Korea, Japan, RUssia, Australia, New Zealand
+
+	 
+	// Other Asia
+		Dosave ASAregion=c.(
+			"BRN",	//	Brunei 
+			"PRK",	//	Democratic People's Republic of Korea 
+			"HKG",	//	Hong Kong
+			"MAC",	//	Macao
+			"MDV",	//	Maldives 
+			"MNG",	//	Mongolia 
+			"SGP",	//	Singapore 
+			"LKA",	//	Sri Lanka 
+			"TWN"	//	Taiwan
+			);
+			
+	// LDC Asia
+		DOSAVE ASLregion=C.(			//	LDC Asia
+			"AFG",		//	Afghanistan
+			"BGD",	  //	Bangladesh 
+			"BTN",		//	Bhutan
+			"MMR",		//	Myanmar
+			"KHM",		//	Cambodia
+			"LAO",		//	Lao People's Democratic Republic
+			"NPL",		//	Nepal
+			"TLS"		 //	Timor-Leste
+			);		  
+			
+	// Other Oceania		
+		Dosave OCEregion=c.(
+			//"ASM",	///	American Samoa
+			//"COK",	///	Cook Islands 
+			"FJI",	///	Fiji Islands 
+			//"PYF",	///	French Polynesia
+			//"GUM",	///	Guam
+			"MHL",	///	Marshall Islands 
+			"FSM",	///	Micronesia (Federated States of) 
+			//"NRU",	///	Nauru 
+			//"NCL",	///	New Caledonia
+			//"NIU",	///	Niue 
+			"PNG",	///	Papua New Guinea 
+			"PLW",	///	Palau 
+			"WSM",	///	Samoa 
+			//"TKL",	///	Tokelau
+			"TON",	///	Tonga 
+			//"WLF",	///	Wallis and Futuna Islands
+			"KIR",	//	Kiribati 
+			"SLB",	//	Solomon Islands 
+			"TUV",	//	Tuvalu 
+			"VUT"	//	Vanuatu 
+			//"CXR",	//	Christmas Island
+			//"CCK",	//	Cocos (Keeling) Islands
+			//	"JOI",	//	Johnston Islands
+			//	"PNE",	//	Neutral Zone
+			//	"NFK",	//	Norfolk Island
+			//	"MNP",	//	Northern Mariana Islands
+			//	"PCN",	//	Pitcairn Islands
+			//	"PIT",	//  Pacific Islands
+			//	"UMI",	//	US Minor Outlying Islands
+			);	
+
+	/*	Dosave OCLregion=c.(
+			"KIR",	//	Kiribati 
+			"SLB",	//	Solomon Islands 
+			"TUV"	//	Tuvalu 
+			"VUT",	//	Vanuatu 
+			);				
+	*/
+		// Region Asia Pacific		
+		Dosave RAPlist=c.(
+			"IDN",	//	Indonesia 
+			"IND",	//	India 
+			"MYS",	//	Malaysia 
+			"PAK",	//	Pakistan 
+			"PHL",	//	Philippines
+			"THA",	//	Thailand 
+			"VNM",	//	Vietnam 
+			"OCE",	// Oceania (includes least developeD)
+			"ASA",	// Other Asia
+			"ASL"	// LDC Asia
+			); 
+
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	/// REU list and region construction
+	////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Other Europe
+		Dosave EUEregion=c.(		// Other Europe
+			"ALB",	//	Albania 
+			//"AND",	//	Andorra 
+			"BLR",	//	Belarus 
+			"BIH",	//	Bosnia and Herzegovina 
+			//"FRO",	//	Faroe Islands
+			"ISL",	//	Iceland 
+			//"MCO",	//	Monaco 
+			"MNE",	//	Montenegro 
+			"MDA",	//	Moldova, Republic of 
+			"SMR",	//	San Marino 
+			"SRB",	//	Serbia 
+		//	"SCG",	//	Serbia + Montenegro
+			"MKD"	//	The former Yugoslav Republic of Macedonia 
+		//	"GIB",	//	Gibraltar
+		//	"VAT",	//	Holy See
+			);
+		
+	// Other Central Asia
+		Dosave ASCregion=c.(
+			"ARM",	//	Armenia 
+			"AZE",	//	Azerbaijan, Republic of 
+			"GEO",	//	Georgia 
+			"KGZ",	//	Kyrgyzstan 
+			"TJK",	//	Tajikistan 
+			"TKM",	//	Turkmenistan 
+			"UZB"	//	Uzbekistan 	
+			);
+		
+	// Region Europe and Central Asia
+		Dosave REUlist=C.(
+			"ISR",	//	Israel 
+			"KAZ",	//	Kazahkstan 		
+			"TUR",	//	Turkey 
+			"UKR",	//	Ukraine 
+			"EUE",	//	Other Europe 
+			"ASC"	//	Other Central Asia 
+			);
+
+
+
