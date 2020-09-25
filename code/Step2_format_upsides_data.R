@@ -14,6 +14,7 @@ library(testthat)
 # Directories
 datadir <- "data"
 outputdir <- "output"
+plotdir <- "figures"
 
 # Read data
 data_orig <- read.csv(file=file.path(datadir, "Costello_etal_2016_upsides_proj_by_cntry_group.csv"), as.is=T)
@@ -222,15 +223,37 @@ data3 <- data2 %>%
   # Fill in group code and group name for other NEI
   mutate(group_code=ifelse(country=="Other nei", "NEI", group_code),
          group_name=ifelse(country=="Other nei", "Other nei", group_name)) %>% 
+  # Calculate total catch
+  group_by(policy, group_code, group_name, iso3, country, year) %>% 
+  summarize(catch_mt=sum(catch_mt),
+            catch_mt_scaled=sum(catch_mt_scaled))
+
+# National file
+data3_nat <- data3 %>% 
   # Summarize by group
-  group_by(group_code, group_name, isscaap, year) %>% 
+  group_by(group_code, group_name, iso3, country, year) %>% 
   summarize(catch_mt=sum(catch_mt_scaled)) %>% 
+  mutate(rfactor=catch_mt/catch_mt[year==2013]) %>% 
   ungroup()
+
+# Country group file
+data3_group <- data3 %>% 
+  # Summarize by group
+  group_by(group_code, group_name, year) %>% 
+  summarize(catch_mt=sum(catch_mt_scaled)) %>% 
+  mutate(rfactor=catch_mt/catch_mt[year==2013]) %>% 
+  # mutate(perc_diff=(catch_mt-catch_mt[year==2013])/catch_mt[year==2013]*100) %>% 
+  ungroup()
+
+# Check
+testthat::expect_equal(sum(data3_nat$catch_mt), sum(data3_group$catch_mt))
+freeR::complete(data3_nat)
+freeR::complete(data3_group)
 
 # Stats
 data3_stats <- data3 %>% 
   group_by(group_name, year) %>% 
-  summarize(catch_mt=sum(catch_mt))
+  summarize(catch_mt=sum(catch_mt_scaled))
 
 # Plot check
 g <- ggplot(data3_stats, aes(x=year, y=catch_mt/1e6, fill=group_name)) +
@@ -248,14 +271,14 @@ g
 fao_group_tots <- fao2013 %>% 
   group_by(group_code, group_name) %>% 
   summarize(catch_mt=sum(catch_mt_obs)) %>% 
-  mutate(dataset="FAO")
+  mutate(dataset="FAO in 2013")
 
 # Costello group totals
 costello_group_totals <- data3 %>% 
   filter(year==2030) %>% 
   group_by(group_code, group_name) %>% 
   summarize(catch_mt=sum(catch_mt)) %>% 
-  mutate(dataset="Costello")
+  mutate(dataset="Costello in 2030")
 
 # Merge
 group_totals <- bind_rows(fao_group_tots, costello_group_totals)
@@ -264,13 +287,27 @@ group_totals <- bind_rows(fao_group_tots, costello_group_totals)
 g <- ggplot(group_totals, aes(x=group_name, y=catch_mt/1e6, fill=dataset)) +
   geom_bar(stat="identity", position = "dodge") +
   labs(x="", y="Catch (millions of mt)") +
+  scale_fill_discrete(name="") +
   theme_bw() +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+        axis.text=element_text(size=8),
+        axis.title=element_text(size=10),
+        plot.title=element_text(size=12),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(), 
+        axis.line = element_line(colour = "black"),
+        legend.position = c(0.8,0.8))
 g
 
+# Export plots
+ggsave(g, filename=file.path(plotdir, "2030_upsides_catch_projections_by_country_group.png"), 
+       width=6.5, height=4.5, units="in", dpi=600)
 
 # Export data
 ################################################################################
 
 # Export
-write.csv(data3, file=file.path(outputdir, "Costello_etal_2016_upsides_proj_for_fao_fish_model.csv"), row.names=F)
+write.csv(data3_nat, file=file.path(outputdir, "Costello_etal_2016_upsides_proj_for_fao_fish_model_country.csv"), row.names=F)
+write.csv(data3_group, file=file.path(outputdir, "Costello_etal_2016_upsides_proj_for_fao_fish_model_country_group.csv"), row.names=F)
+
