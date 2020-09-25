@@ -85,9 +85,19 @@ fao2013 <- fao_orig %>%
   mutate(iso3_orig=ifelse(country_orig=="Channel Islands", "830", iso3_orig),
          iso3_orig=ifelse(country_orig=="Other nei", "NEI", iso3_orig),
          iso3_orig=ifelse(country_orig=="Sudan (former)", "SDN-former", iso3_orig)) %>% 
+  # Add country group
+  left_join(cntry_key %>% select(iso3, group_code, group_name), by=c("iso3_orig"="iso3")) %>% 
+  mutate(group_code=ifelse(country_orig=="Other nei", "NEI", group_code),
+         group_name=ifelse(country_orig=="Other nei", "Other nei", group_name)) %>% 
   # Summarize by country
-  group_by(iso3_orig, country_orig, isscaap) %>% 
+  group_by(group_code, group_name, iso3_orig, country_orig, isscaap) %>% 
   summarize(catch_mt_obs=sum(quantity)) %>% 
+  ungroup()
+
+# FAO 2013 national totals
+fao2013_nat <- fao2013 %>% 
+  group_by(group_code, group_name, iso3_orig, country_orig) %>% 
+  summarise(catch_mt_obs=sum(catch_mt_obs)) %>% 
   ungroup()
   
 
@@ -120,7 +130,7 @@ data1 <- data_orig %>%
   select(policy, iso3, country, isscaap, year, everything())
 
 
-# Calculate scalar (simple)
+# Calculate scalar (simple - global)
 ################################################################################
 
 # Totals and scalar
@@ -128,20 +138,40 @@ fao13_tot <- sum(fao2013$catch_mt_obs)
 costello13_tot <- data1 %>% 
   filter(policy=="BAU" & year==2013) %>% 
   pull(catch_mt) %>% sum()
-scalar <- fao13_tot / costello13_tot
+scalar_global <- fao13_tot / costello13_tot
 
+
+# Calculate scalar (simple - national)
+################################################################################
+
+# Build scalar key
+scalar_key_cntry <- data1 %>% 
+  # 2013 values
+  filter(policy=="BAU" & year==2013) %>% 
+  # Important rows and rename
+  select(iso3, country, catch_mt) %>% 
+  # Add observed 2013 catch
+  left_join(fao2013_nat %>% select(-country_orig), by=c("iso3"="iso3_orig")) %>% 
+  # Summarize
+  group_by(iso3, country, catch_mt_obs) %>% 
+  summarize(catch_mt_sim=sum(catch_mt)) %>% 
+  ungroup() %>% 
+  # Calculate scalar
+  mutate(scalar=catch_mt_obs/catch_mt_sim,
+         scalar=ifelse(is.na(scalar) | is.infinite(scalar), 0, scalar),
+         catch_mt_check=catch_mt_sim*scalar) 
 
 # Calculate scalars (complex)
 ################################################################################
 
 # Build scalar key
-scalar_key <- data1 %>% 
+scalar_key_cntry_isscaap <- data1 %>% 
   # 2013 values
   filter(policy=="BAU" & year==2013) %>% 
   # Important rows and rename
   select(iso3, country, isscaap, catch_mt) %>% 
   rename(catch_mt_sim=catch_mt) %>% 
-  # Fill missing ISO3s for matching to FAO data
+  # Add observed 2013 catch
   left_join(fao2013 %>% select(-country_orig), by=c("iso3"="iso3_orig", "isscaap")) %>% 
   # Calculate scalar
   mutate(scalar=catch_mt_obs/catch_mt_sim,
@@ -154,8 +184,10 @@ scalar_key <- data1 %>%
 
 # Scale data
 data2 <- data1 %>% 
-  # Add scalar (if doing complex method)
-  # left_join(scalar_key %>% select(iso3, isscaap, scalar), by=c("iso3", "isscaap")) %>% 
+  # Add scalar (national)
+  left_join(scalar_key_cntry %>% select(iso3, scalar), by=c("iso3")) %>%
+  # Add scalar (national-isscaap)
+  # left_join(scalar_key_cntry_isscaap %>% select(iso3, isscaap, scalar), by=c("iso3", "isscaap")) %>%
   mutate(catch_mt_scaled=catch_mt*scalar)
 
 # Build plot to confirm scaling
@@ -172,7 +204,7 @@ g <- ggplot(data2_global, aes(x=year, y=catch_mt_scaled/1e6, color=policy)) +
   geom_hline(yintercept=sum(fao2013$catch_mt_obs)/1e6, linetype="dashed") +
   # Labels
   labs(x="Year", y="Catch (millions mt)") +
-  scale_y_continuous(lim=c(0,120)) +
+  scale_y_continuous(lim=c(0,130)) +
   # Theme
   theme_bw()
 g
@@ -207,6 +239,35 @@ g <- ggplot(data3_stats, aes(x=year, y=catch_mt/1e6, fill=group_name)) +
   lims(x=c(2013, 2050), y=c(0,120)) +
   theme_bw()
 g
+
+
+# Compare 2013 values
+################################################################################
+
+# FAO group totals
+fao_group_tots <- fao2013 %>% 
+  group_by(group_code, group_name) %>% 
+  summarize(catch_mt=sum(catch_mt_obs)) %>% 
+  mutate(dataset="FAO")
+
+# Costello group totals
+costello_group_totals <- data3 %>% 
+  filter(year==2030) %>% 
+  group_by(group_code, group_name) %>% 
+  summarize(catch_mt=sum(catch_mt)) %>% 
+  mutate(dataset="Costello")
+
+# Merge
+group_totals <- bind_rows(fao_group_tots, costello_group_totals)
+
+# Plot group totals 
+g <- ggplot(group_totals, aes(x=group_name, y=catch_mt/1e6, fill=dataset)) +
+  geom_bar(stat="identity", position = "dodge") +
+  labs(x="", y="Catch (millions of mt)") +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+g
+
 
 # Export data
 ################################################################################
