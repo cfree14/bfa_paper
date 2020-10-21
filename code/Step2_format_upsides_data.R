@@ -196,19 +196,35 @@ data2_global <- data2 %>%
   group_by(policy, year) %>% 
   summarize(catch_mt=sum(catch_mt, na.rm=T),
             catch_mt_scaled=sum(catch_mt_scaled, na.rm=T)) %>% 
-  ungroup()
+  ungroup() %>% 
+  gather(key="type", value="catch_mt", 3:4) %>% 
+  mutate(type=recode(type, "catch_mt"="Unscaled",
+                     "catch_mt_scaled"="Scaled"))
 
 # Plot global
-g <- ggplot(data2_global, aes(x=year, y=catch_mt_scaled/1e6, color=policy)) +
-  geom_line() +
+g <- ggplot(data2_global, aes(x=year, y=catch_mt/1e6, linetype=type, color=policy)) +
+  geom_line(lwd=0.4) +
   # FAO 2013 reference line
-  geom_hline(yintercept=sum(fao2013$catch_mt_obs)/1e6, linetype="dashed") +
+  geom_hline(yintercept=sum(fao2013$catch_mt_obs)/1e6, linetype="dashed", lwd=0.4) +
   # Labels
   labs(x="Year", y="Catch (millions mt)") +
+  scale_x_continuous(breaks=seq(2010,2050,10), lim=c(2010,2050)) +
   scale_y_continuous(lim=c(0,130)) +
   # Theme
-  theme_bw()
+  theme_bw() + 
+  theme(axis.text=element_text(size=8),
+        axis.title=element_text(size=10),
+        plot.title=element_text(size=12),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(), 
+        axis.line = element_line(colour = "black"))
 g
+
+# Export global
+ggsave(g, filename=file.path(plotdir, "Costello_etal_2016_global_catch_bau_msy_rbfm.png"), 
+       width=4.5, height=3, units="in", dpi=600)
+
 
 
 # Format data for FAO model
