@@ -299,10 +299,27 @@ stats <- data %>%
   group_by(source, aq_type, sector, sector_long, year) %>% 
   summarize(prod_mt=sum(prod_mt))
 
+# FAO stats
+fao_aq_hi_mt <- 118.3
+
+# Global linear trend
+stats_yr <- data %>% 
+  group_by(source, year) %>% 
+  summarise(prod_mt=sum(prod_mt)) %>% 
+  filter(year>=2010 & source=="Historical")
+lmfit <- lm(prod_mt ~ year, stats_yr)
+yrs_plot <- 2010:2030
+preds_plot <- predict(lmfit, newdata = tibble(year=yrs_plot)) %>% as.numeric()
+preds_df <- tibble(year=yrs_plot, prod_mt=preds_plot)
+
 # Plot
 g <- ggplot(stats, aes(x=year, y=prod_mt/1e6, fill=sector, alpha=aq_type)) +
   geom_area() +
   geom_vline(xintercept=2017) +
+  # Plot linear regression
+  geom_line(preds_df, mapping=aes(x=year, y=prod_mt/1e6), inherit.aes = F, linetype="dashed") +
+  # FAO point
+  geom_point(x=2030, y=fao_aq_hi_mt) +
   # Labels
   labs(x="", y="Production (millions mt)") +
   scale_x_continuous(breaks=seq(1950, 2030, 10)) +
